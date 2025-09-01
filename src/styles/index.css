@@ -1,0 +1,51 @@
+/* Import design tokens */
+@import "./tokens.css";
+
+/* Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base reset and utilities */
+*, ::before, ::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  tab-size: 4;
+  font-family: var(--font-sans);
+}
+
+body {
+  margin: 0;
+  line-height: inherit;
+}
+
+/* Global font family */
+:root, * { 
+  font-family: var(--font-sans);
+}
+
+/* Focus styles for interactive elements */
+:where(button, a, input, textarea, [role="switch"]):focus-visible {
+  outline: var(--focus-ring) solid var(--focus-color);
+  outline-offset: 2px;
+}
+
+/* Custom utility classes for CSS variables */
+@layer utilities {
+  .bg-lebit-bg { background-color: var(--bg); }
+  .bg-lebit-bg-muted { background-color: var(--bg-muted); }
+  .text-lebit-primary { color: var(--content-primary); }
+  .text-lebit-secondary { color: var(--content-secondary); }
+  .text-lebit-inverse { color: var(--content-inverse); }
+  .border-lebit { border-color: var(--border-color); }
+  .placeholder-lebit-secondary::placeholder { color: var(--content-secondary); }
+  .outline-lebit-focus { outline: var(--focus-ring) solid var(--focus-color); }
+}
