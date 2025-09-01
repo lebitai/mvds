@@ -1,7 +1,8 @@
 # Lebit MVDS (Minimum Viable Design System)
 
 A modern, code-first React design system starter built with TypeScript, Vite, and Tailwind CSS. Features a comprehensive design token system, reusable UI components, and consistent styling patterns.  
-PREVIEW as follows:   
+
+## PREVIEW as follows:   
 <img width="1028" height="716" alt="Screenshot 2025-09-01 at 12 13 17" src="https://github.com/user-attachments/assets/14cf1401-5032-4918-8eec-939fbee149a5" />  
 
 
