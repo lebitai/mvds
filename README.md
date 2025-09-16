@@ -35,6 +35,10 @@ pnpm build
 
 Open [http://localhost:5173](http://localhost:5173) to view the demo.
 
+## 🤝 Contributor Guide
+
+Read [Repository Guidelines](./AGENTS.md) for project structure, workflows, and review expectations.
+
 ## 🏗️ Architecture
 
 ### Design Tokens
